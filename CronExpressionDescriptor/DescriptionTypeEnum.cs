@@ -5,6 +5,9 @@ using System.Text;
 
 namespace CronExpressionDescriptor
 {
+    /// <summary>
+    /// Enum to define the description "parts" of a Cron Expression  
+    /// </summary>
     public enum DescriptionTypeEnum
     {
         FULL,
@@ -14,6 +17,7 @@ namespace CronExpressionDescriptor
         HOURS,
         DAYOFWEEK,
         MONTH,
-        DAYOFMONTH
+        DAYOFMONTH,
+        YEAR
     }
 }
